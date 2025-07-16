@@ -1,54 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cornerstone Charity</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Cornerstone Charity | Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-
 <body class="bg-gray-50 text-gray-800">
-  <header class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
-      <h1 class="text-xl font-bold">Cornerstone Charity</h1>
-      <nav>
-        <ul class="flex space-x-4 text-sm font-semibold">
-          <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
-          <li><a href="programs.html" class="hover:text-yellow-300">Programs</a></li>
-          <li><a href="volunteer.html" class="hover:text-yellow-300">Volunteer</a></li>
-          <li><a href="success.html" class="hover:text-yellow-300">Success</a></li>
-          <li><a href="blog.html" class="hover:text-yellow-300">Blog</a></li>
-          <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
-          <li><a href="newsletter.html" class="hover:text-yellow-300">Newsletter</a></li>
-          <li><a href="donate.html" class="hover:text-yellow-300">Donate</a></li>
-          <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
-        </ul>
-      </nav>
+  <nav class="bg-green-700 p-4 text-white text-center space-x-4">
+    <a href="index.html" class="hover:underline">Home</a>
+    <a href="programs.html" class="hover:underline">Programs</a>
+    <a href="volunteer.html" class="hover:underline">Volunteer</a>
+    <a href="success.html" class="hover:underline">Success</a>
+    <a href="donate.html" class="hover:underline">Donate</a>
+    <a href="contact.html" class="hover:underline">Contact</a>
+    <a href="blog.html" class="hover:underline">Blog</a>
+    <a href="gallery.html" class="underline">Gallery</a>
+    <a href="newsletter.html" class="hover:underline">Newsletter</a>
+  </nav>
+  <section class="max-w-6xl mx-auto p-8">
+    <h1 class="text-3xl font-bold text-center mb-6">Photo Gallery</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="assets/image2.webp" alt="Gallery Image" class="w-full rounded shadow-md" />
+      <img src="assets/Image3.webp" alt="Gallery Image" class="w-full rounded shadow-md" />
+      <img src="assets/Image4.webp" alt="Gallery Image" class="w-full rounded shadow-md" />
     </div>
-  </header>
-
-  <main class="max-w-7xl mx-auto px-4 py-6">
-    <section class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-blue-900 mb-4">Gallery</h2>
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">A glimpse into our events, activities, and the children we support.</p>
-    </section>
-
-    <div class="grid md:grid-cols-3 gap-4">
-      <img src="assets/images/gallery1.jpg" alt="Gallery 1" class="rounded shadow hover:scale-105 transition">
-      <img src="assets/images/gallery2.jpg" alt="Gallery 2" class="rounded shadow hover:scale-105 transition">
-      <img src="assets/images/gallery3.jpg" alt="Gallery 3" class="rounded shadow hover:scale-105 transition">
-    </div>
-  </main>
-
-  <footer class="bg-blue-900 text-white text-center py-4 mt-12">
-    &copy; 2025 Cornerstone Charity. All rights reserved.
-  </footer>
-</body>
-</html>
-
-  <footer class="bg-blue-900 text-white text-center py-4 mt-12">
-    &copy; 2025 Cornerstone Charity. All rights reserved.
-  </footer>
+  </section>
 </body>
 </html>
