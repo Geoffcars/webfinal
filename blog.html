@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Cornerstone Charity</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <img src="assets/images/logo.png" class="logo" alt="Cornerstone Charity Logo">
-            <div>
-                <a href="index.html">Home</a>
-                <a href="programs.html">Programs</a>
-                <a href="volunteer.html">Volunteer</a>
-                <a href="success.html">Success</a>
-                <a href="donate.html">Donate</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-    </header>
-    
-<section>
-    <h2>Our Blog</h2>
-    <article>
-        <h3>Empowering the Future</h3>
-        <p>Discover how our education program is changing lives across Kenya. Read about new initiatives, partnerships, and progress updates.</p>
-    </article>
-    <article>
-        <h3>Feeding Hope</h3>
-        <p>Join our journey as we deliver essential food supplies to the most vulnerable communities. Follow our latest food drive campaign highlights.</p>
-    </article>
-</section>
 
-    
-    <footer>
-        <p>&copy; 2025 Cornerstone Charity. All rights reserved.</p>
-    </footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cornerstone Charity</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="assets/images/logo.png">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <div class="flex items-center space-x-4">
+        <img src="assets/images/logo.png" alt="Logo" class="h-12 w-auto" />
+        <h1 class="text-xl font-bold">Cornerstone Charity</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-4 text-sm font-semibold">
+          <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+          <li><a href="programs.html" class="hover:text-yellow-300">Programs</a></li>
+          <li><a href="volunteer.html" class="hover:text-yellow-300">Volunteer</a></li>
+          <li><a href="success.html" class="hover:text-yellow-300">Success</a></li>
+          <li><a href="blog.html" class="hover:text-yellow-300">Blog</a></li>
+          <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+          <li><a href="newsletter.html" class="hover:text-yellow-300">Newsletter</a></li>
+          <li><a href="donate.html" class="hover:text-yellow-300">Donate</a></li>
+          <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="max-w-7xl mx-auto px-4 py-6 ">
+<section class="text-center mb-12">
+  <h2 class="text-3xl font-bold text-blue-900 mb-4">Latest Blog Posts</h2>
+  <p class="text-lg text-gray-600 max-w-2xl mx-auto">Insights, updates, and inspiring stories from our mission field.</p>
+</section>
+<div class="grid md:grid-cols-3 gap-6">
+  <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+    <h3 class="text-xl font-semibold text-blue-800 mb-2">Hope Begins with a Meal</h3>
+    <p>Our latest food drive helped over 200 families access nutrition in rural Kenya.</p>
+  </div>
+  <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+    <h3 class="text-xl font-semibold text-blue-800 mb-2">New Dorms Opened</h3>
+    <p>Thanks to your donations, we've opened a new shelter for orphaned students.</p>
+  </div>
+  <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+    <h3 class="text-xl font-semibold text-blue-800 mb-2">Meet Our Scholars</h3>
+    <p>Read about three students who overcame challenges and are now excelling in school.</p>
+  </div>
+</div>
+</main>
+  <footer class="bg-blue-900 text-white text-center py-4 mt-12">
+    &copy; 2025 Cornerstone Charity. All rights reserved.
+  </footer>
 </body>
 </html>
