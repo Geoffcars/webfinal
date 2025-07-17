@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cornerstone Charity</title>
+  <title>Cornerstone Charity - Donate</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -36,22 +36,29 @@
     </section>
 
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- PayPal Donation Section -->
+      <!-- PayPal Donation -->
       <div class="bg-white p-6 rounded shadow text-center">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">Donate via PayPal</h3>
-        <a href="https://paypal.me/geofcars" target="_blank"
-          class="inline-block bg-yellow-400 text-blue-900 font-bold px-6 py-3 rounded hover:bg-yellow-300 transition">
-          PayPal
-        </a>
+        <h3 class="text-xl font-semibold text-blue-800 mb-4">Donate via PayPal</h3>
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+          <input type="hidden" name="business" value="geofcars@gmail.com" />
+          <input type="hidden" name="no_recurring" value="0" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input type="hidden" name="item_name" value="For school fees" />
+          <button type="submit"
+            class="bg-yellow-400 text-blue-900 font-bold px-6 py-3 rounded hover:bg-yellow-300 transition">
+            Donate with PayPal
+          </button>
+        </form>
       </div>
 
-      <!-- Mpesa Donation Section -->
+      <!-- M-Pesa Donation -->
       <div class="bg-white p-6 rounded shadow text-center">
-        <h3 class="text-xl font-semibold text-blue-800 mb-4">Donate via Mpesa</h3>
-        <span
-          class="inline-block bg-green-500 text-white font-bold px-6 py-3 rounded-full shadow hover:bg-green-600 transition">
-          0717303900
-        </span>
+        <h3 class="text-xl font-semibold text-blue-800 mb-4">Donate via M-Pesa</h3>
+        <p>
+          <span class="inline-block bg-green-500 text-white font-semibold px-4 py-2 rounded">
+            0717303900
+          </span>
+        </p>
       </div>
     </div>
   </main>
@@ -62,4 +69,3 @@
 </body>
 
 </html>
-
